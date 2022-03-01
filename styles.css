@@ -1,0 +1,155 @@
+
+/* CSS */
+
+@font-face {
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.logo-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  background: rgba(0, 0, 0, 0.4);
+  height: 200px;
+}
+
+.sidebar {
+  position: relative;
+  height: 100vh;
+  background-image: url('images/unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:   0px;
+}
+
+.main-body {
+  font-size: 18px;
+  display: grid;
+  grid-template-rows: 35% 35% 30%;
+}
+
+img {
+  width: 120px;
+  height: 180px;
+}
+
+.odin-logo-text {
+  color: white;
+  font-family: norse-bold;
+  font-size: 120px;
+  margin: 0.1em;
+  opacity: 1;
+}
+
+
+.intro-box {
+  background: rgba(245, 245, 245, 0.692);
+  display: flex;
+  align-items: flex-end;
+  padding-left: 3em;
+  padding-bottom: 3em;
+}
+
+.intro-text {
+  max-width: 32em;
+  font-family: "Helvetica";
+  font-weight: 550;
+  font-size: 25px;
+}
+
+
+.signup-box {
+  padding-left: 3em;
+}
+
+.signup-text {
+  font-family: "Helvetica";
+  font-weight: 550;
+  font-size: 25px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.form-element {
+  margin-right: 4em;
+  margin-bottom: 1.5em;
+}
+
+input {
+  outline: none;
+  width: 20em;
+  padding: 4px 6px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border:1px solid blue;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+
+label {
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.account-box {
+  background: rgba(245, 245, 245, 0.692);
+  padding-left: 3em;
+  padding-top: 2em;
+}
+
+.account-text {
+  font-family: Arial; 
+  font-weight: 550;
+  font-size: 14px;
+  padding-top: 1em;
+}
+
+.btn {
+  background-color: #2b5f2d; /* Green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  font-family: Arial;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.login {
+  color: #2b5f2d; /* Green */
+  text-decoration: none;
+}
+
+
+
+
